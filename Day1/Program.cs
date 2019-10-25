@@ -179,7 +179,7 @@ namespace Day1
             Console.WriteLine("Введите сторону квадрата С:");
             C = Convert.ToInt32(Console.ReadLine());
             if (C > A || C > B)
-                Console.WriteLine("Невозможно вписать квадрат в прямоугольник, он очень большой");
+                Console.WriteLine("Невозможно вписать квадрат в прямоугольник, он очень большой.");
             else
             {
                 x = Math.Floor(A / C);
